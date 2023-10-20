@@ -31,3 +31,13 @@
 /home/thiagobcf/projetos/APIcatalogo/obj/Debug/net7.0/APIcatalogo.pdb
 /home/thiagobcf/projetos/APIcatalogo/obj/Debug/net7.0/APIcatalogo.genruntimeconfig.cache
 /home/thiagobcf/projetos/APIcatalogo/obj/Debug/net7.0/ref/APIcatalogo.dll
+/home/thiagobcf/projetos/APIcatalogo/bin/Debug/net7.0/Humanizer.dll
+/home/thiagobcf/projetos/APIcatalogo/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/home/thiagobcf/projetos/APIcatalogo/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/thiagobcf/projetos/APIcatalogo/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/thiagobcf/projetos/APIcatalogo/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/thiagobcf/projetos/APIcatalogo/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/home/thiagobcf/projetos/APIcatalogo/bin/Debug/net7.0/Mono.TextTemplating.dll
+/home/thiagobcf/projetos/APIcatalogo/bin/Debug/net7.0/MySqlConnector.dll
+/home/thiagobcf/projetos/APIcatalogo/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/thiagobcf/projetos/APIcatalogo/bin/Debug/net7.0/System.CodeDom.dll

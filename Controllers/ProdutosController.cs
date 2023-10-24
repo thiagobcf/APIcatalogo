@@ -52,6 +52,19 @@ namespace APIcatalogo.Controllers
 
             return new CreatedAtRouteResult("ObterProduto", new { id = produto.ProdutoId }, produto);
         }
+        
+        [HttpPut("{id:int}")]
+        public ActionResult Put(int id, Produto produto )
+        {
+            if (id != produto.ProdutoId)
+            {
+                return BadRequest();
+            }
+            _context.Entry(produto).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            _context.SaveChanges();
+
+            return Ok(produto);
+        }
     }
 }
 

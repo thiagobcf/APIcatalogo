@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace APIcatalogo.Models
@@ -32,6 +33,7 @@ namespace APIcatalogo.Models
         public float Estoque { get; set; }
         public DateTime DataCadastro { get; set; }
         public int CategoriaId { get; set; }
+        [JsonIgnore]
         public Categoria? Categoria { get; set; }
 
     }

@@ -19,6 +19,17 @@ namespace APIcatalogo.Controllers
             _context = context;
         }
 
+        [HttpGet("primeiro")]
+        public ActionResult<Produto> GetPrimeiro()
+        {
+            var produto = _context.Produtos.FirstOrDefault();
+            if(produto is null)
+            {
+                return NotFound("Produtos não encontrados");
+            }
+            return produto;
+        }
+
         [HttpGet]
         public ActionResult<IEnumerable<Produto>> Get()
         {
@@ -29,6 +40,9 @@ namespace APIcatalogo.Controllers
             }
             return produtos;
         }
+
+        
+
 
         [HttpGet("{id:int}", Name="ObterProduto")]
         public ActionResult<Produto> Get(int id)
